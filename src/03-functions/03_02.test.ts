@@ -58,12 +58,12 @@ test("Budget should be changed for FIRE-STATION", () => {
     expect(city.governmentBuildings[1].budget).toBe(400000)
 })
 
-test.skip("Houses should be destroyed", () => {
-    demolishHousesOnTheStreet(city, "Happy street")
-
-    expect(city.houses.length).toBe(1)
-    expect(city.houses[0].id).toBe(1)
-})
+// test.skip("Houses should be destroyed", () => {
+//     demolishHousesOnTheStreet(city, "Happy street")
+//
+//     expect(city.houses.length).toBe(1)
+//     expect(city.houses[0].id).toBe(1)
+// })
 
 test("Houses should be repaired", () => {
     repairHouse(city.houses[1])
