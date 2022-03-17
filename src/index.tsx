@@ -4,14 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {sum} from "./03-functions/03";
+import {User} from './06-callback-onClick-onChange-onBlur/06-callbacks'
 
 var a = sum
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+ReactDOM.render(<User />, document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
